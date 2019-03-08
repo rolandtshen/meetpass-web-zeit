@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/card.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42238792-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-42238792-3');
+  </script>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9662808595688841",
+            enable_page_level_ads: true
+       });
+  </script>
+</head>
+
+<body>
+  <div class="card">
+    <svg style="width:80%;height:80%;" viewBox="0 0 344 206" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+        <rect id="path-1" x="0" y="0" width="344" height="200" rx="10"></rect>
+        <filter x="-0.9%" y="-1.5%" width="101.7%" height="106.0%" filterUnits="objectBoundingBox" id="filter-2">
+          <feColorMatrix values="0 0 0 0 0.180392157   0 0 0 0 0.22745098   0 0 0 0 0.368627451  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+      </defs>
+      <g id="AccountsViewController" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-6" transform="translate(-17.000000, -53.000000)">
+          <g id="card" transform="translate(17.000000, 53.000000)">
+            <g>
+              <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+              <use fill="{{background}}" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <text id="Roland-Shen" font-family="RobotoMonoForPowerline-Regular, Roboto Mono for Powerline" font-size="22" font-weight="normal" letter-spacing="-0.4341176" fill="{{foreground}}">
+              <tspan x="20" y="182">{{card.name}}</tspan>
+            </text>
+            <text id="SOCIAL" font-family="RobotoMonoForPowerline-Bold, Roboto Mono for Powerline" font-size="20" font-weight="bold" letter-spacing="-0.4341176" fill="{{foreground}}">
+              <tspan x="266" y="182">{{card.cardName}}</tspan>
+            </text>
+            <text id="MeetPass" font-family="OpenSans-Bold, Open Sans" font-size="24" font-weight="bold" letter-spacing="-0.5788235" fill="{{foreground}}">
+              <tspan x="19" y="41">MeetPass</tspan>
+            </text>
+          </g>
+        </g>
+      </g>
+    </svg>
+  </div>
+  <div class="profile">
+    <div class="profile-inner">
+      {{#each accounts}}
+        <a href="{{this.url}}" class="link"><img src="img/logos/{{this.platform}}.png">{{this.handle}}</a>
+      {{/each}}
+    </div>
+    <script type="text/javascript">
+      var inmobi_conf = {
+      siteid : "4d79d3d449e04a0299655bc7fff8d578",
+      slot : "15",
+    }
+    </script>
+    <script type="text/javascript" src="http://cf.cdn.inmobi.com/ad/inmobi.js"></script>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

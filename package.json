@@ -1,12 +1,20 @@
 {
-  "name": "nodejs-express",
+  "name": "meetpass-web",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.16.4"
-  },
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "start": "node ."
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rolandtshen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "heroku-ssl-redirect": "0.0.4",
+    "nodemon": "^1.18.7",
+    "request": "^2.88.0",
+    "serve-favicon": "^2.5.0"
   }
 }
